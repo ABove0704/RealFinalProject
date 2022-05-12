@@ -19,10 +19,27 @@ body {
 	animation-direction: alternate;
 }
 
+span {
+	opacity: 10;
+	transition:: all 60s ease;
+}
+
+span.fade {
+	opacity: 30;
+}
+
 div img {
 	text-align: center;
 	height: 60vw;
 	width:  40vw;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.not-visible {
+  visibility: hidden;
 }
 
 h1 {
